@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:football_news/menu.dart';
+import 'package:football_news/screens/menu.dart';
+import 'package:football_news/screens/newslist_form.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,8 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blue)
             .copyWith(secondary: Colors.blueAccent[400]),
       ),
-      home: MyHomePage( colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blue)
-          .copyWith(secondary: Colors.blueAccent[400]),),
+      home: MyHomePage(),
     );
   }
 }
